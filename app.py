@@ -11,8 +11,8 @@ from statsmodels.tsa.stattools import acf
 import warnings
 warnings.filterwarnings('ignore')
 
-st.set_page_config(page_title="Synthetic Data Generator", layout="wide")
-st.title("Synthetic Data Generator")
+st.set_page_config(page_title="SynVault", layout="wide")
+st.title("SynVault")
 
 # Initialize session state variables
 if 'uploaded_data' not in st.session_state:
